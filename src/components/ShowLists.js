@@ -27,7 +27,7 @@ const ShowLists = () => {
           <div className="col mb-4" key={show.show.id}>
             <div className="card" style={{ width: '18rem' }}>
               <img src={show.show.image?.medium} className="card-img-top" alt="img" />
-              <div className="card-body">
+              <div className="card-body"> 
                 <h5 className="card-title">{show.show.name}</h5>
                 <p className="card-text">
                   Rating: {show.show.rating?.average ? show.show.rating.average : 'N/A'}
